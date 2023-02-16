@@ -106,9 +106,30 @@ seul les services qui on Eureka discovery client comme dependance vont étre aff
       Par ID
       
    ![image](https://user-images.githubusercontent.com/57690392/206134446-1cfb9b72-d0da-4404-a74a-79a7bd4bbd34.png)
+   __________________________________________________________________________________________________________________ 
    
-   
-## Résoudre le problemes des clé etrangére  null dans la base de données  ##   
+## Frontend ##   
+### Produits
+![image](https://user-images.githubusercontent.com/57690392/219508067-4fa2498c-7b9a-4933-9d50-02c2026c4358.png)
+### Clients
+![image](https://user-images.githubusercontent.com/57690392/219508392-0030ee29-5654-412e-80ed-a52fea8eef5a.png)
+### Facture
+![image](https://user-images.githubusercontent.com/57690392/219508872-088f5ea0-d025-4f63-982c-fafb54361253.png)
+__________________________________________________________________________________________________________________
+### Realtime ordering - bills analysis
+## Kafka server
+![image](https://user-images.githubusercontent.com/57690392/219509016-922147cf-752b-4982-b05e-4e028e386219.png)
+
+## Zookeeper
+![image](https://user-images.githubusercontent.com/57690392/219509126-cb6ec489-6c7b-4a29-b94f-d9d9b4b38196.png)
+
+## Analytics
+![image](https://user-images.githubusercontent.com/57690392/219509275-0d28ff5b-6d65-425e-98a0-59415d4d064c.png)
+
+ ## Resultat
+ 
+![KafkaProjet](https://user-images.githubusercontent.com/57690392/219509429-c2ed7297-3ac8-4d2a-929a-128ce51399fe.gif)
+
    
   
 
