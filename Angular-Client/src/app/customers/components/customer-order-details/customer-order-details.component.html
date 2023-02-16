@@ -1,0 +1,36 @@
+<div class="card mt-4">
+    <div class="card-header text-center bg-secondary text-light">
+      {{order.id}}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{order.customer.name}}</h5>
+      <div class="mt-4">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Reference</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of order.products">
+                <th>{{item.productId}}</th>
+                <td>{{item.product.name}}</td>
+                <td>{{item.product.price | currency : 'MAD ' : 'symbol' :'4.2-2'}}</td>
+                <td>{{item.product.quantity}}</td>
+                <td class="text-success">{{item.amount | currency : 'MAD ' : 'symbol' :'4.2-2'}}<td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="text-center text-success">Order Amount : {{order.total | currency : 'MAD ' : 'symbol' :'.2-2'}}</h3>
+      </div>
+      
+    </div>
+    <div class="card-footer text-center bg-secondary text-light">
+        {{order.created | date}}
+    </div>
+  </div>
+
